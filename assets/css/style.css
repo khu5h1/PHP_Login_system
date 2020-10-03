@@ -1,1 +1,51 @@
+body{
+    
+    margin-top: 4rem;
+    background-color: rgb(153, 226, 245);
+   
+}
 
+.container{
+    background-color: rgba(0, 0, 0, 0.533);
+    border-radius: 15px;
+    padding:1.2rem 3rem;
+}
+
+h3{
+    color: white;
+    margin: 15px 0;
+}
+
+.or {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .login-form-1{
+      padding:8px 30px;
+      border-right: 1px solid black;
+  }
+
+  .login-form-2{
+    padding: 10px 30px;
+  }
+
+  .btnSubmit{
+      border-radius: 6px;
+      padding: 2px 5px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.7);
+      font-weight: 500;
+
+  }
+  .resetPass{
+      margin-top: 4rem;
+  }
