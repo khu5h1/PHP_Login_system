@@ -86,7 +86,8 @@ echo "<script>alert('Email not registered');</script>";
     />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Login/Signup Page</title>
+    <title>Login/Signup</title>
+    <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container login-container">
@@ -121,29 +122,28 @@ echo "<script>alert('Email not registered');</script>";
                   value="LOG IN"
                 />
 
-              <div class="clear"></div>
             </div>
+
           </form>
-          <h3>Reset Password</h3>
+          <h3 class="resetPass">Forgot Password?</h3>
           <form name="login" action="" method="post">
           <div class="form-group">
-								<input type="text" class="form-control" name="femail" value="" placeholder="Enter your registered email" required  ><a href="#" class=" icon email"></a>		
-                </div>
-                <div class="form-group">
-									
-											<input type="submit" name="send" onClick="myFunction()" value="Reset password" >
-									</div>
-									</form>
+						<input type="text" class="form-control" name="femail" value="" placeholder="Enter your registered Email" required  ><a href="#" class=" icon email"></a>		
+          </div>
+          <div class="form-group">									
+						<input type="submit" class="btnSubmit" name="send" onClick="myFunction()" value="Reset password" >
+					</div>
+					</form>
         </div>
         
         <div class="col-md-6 login-form-2">
-          <h3>Registration form</h3>
+          <h3>Sign Up</h3>
           <form
             name="registration"
             method="post"
             action=""
-            enctype="multipart/form-data"
-          >
+            enctype="multipart/form-data">
+          
             <div class="form-group">
               <input class = "form-control" type="text" class="text" value="" name="fname" required placeholder="Enter First Name"/>
             </div>
@@ -161,15 +161,17 @@ echo "<script>alert('Email not registered');</script>";
             </div>
             
             <div class="form-group">
-                <input class= "btnSubmit"type="reset" value="Reset" />
+                <input class= "btnSubmit" type="reset" value="Reset" />
                 </div>
                 <div class="form-group">
-                <input class= "btnSubmit"type="submit" name="signup" value="Sign Up" />
+                <input class= "btnSubmit"type="submit" name="signup" value="Submit" />
                 </div>
             </div>
           </form>
         </div>
       </div>
     </div>
+    <div class="or">OR</div>
+
   </body>
 </html>

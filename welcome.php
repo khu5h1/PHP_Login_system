@@ -2,6 +2,7 @@
 session_start();
 if (strlen($_SESSION['id']==0)) {
   header('location:logout.php');
+
   } else{
 	
 ?><!DOCTYPE html>
@@ -16,17 +17,24 @@ if (strlen($_SESSION['id']==0)) {
     <meta name="author" content="">
 
     <title>Welcome </title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="assests/css/welcome.css" rel="stylesheet">
 </head>
 <body>
- 
-    <div class="container">
+<div class="container">
             <h1>Hola Amegos!</h1>
             <p>This is a basic Login/SignUp/Logout functionality which you may use in your project.</p>
             <a  href="logout.php" class="btn btn-primary btn-large">Logout </a> 
         <hr>
         </div>
         <hr>    </div>
+
 </body>
 
 </html>
