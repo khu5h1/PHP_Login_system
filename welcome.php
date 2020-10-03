@@ -27,10 +27,14 @@ if (strlen($_SESSION['id']==0)) {
     <link href="assests/css/welcome.css" rel="stylesheet">
 </head>
 <body>
- 
-    <div class="container-fluid">            
-      <a href="logout.php" class="btn btn-light">Logout </a> 
-    </div>
+<div class="container">
+            <h1>Hola Amegos!</h1>
+            <p>This is a basic Login/SignUp/Logout functionality which you may use in your project.</p>
+            <a  href="logout.php" class="btn btn-primary btn-large">Logout </a> 
+        <hr>
+        </div>
+        <hr>    </div>
+
 </body>
 
 </html>
