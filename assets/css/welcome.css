@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@500&display=swap');
 body{
-    border: 2px solid grey;
+    text-align: center;
+    margin-top: 70px;
     height: 100vh;
     width:100vw;
     background-image: url("https://archive.org/download/macbook-laptop-coding/macbook-laptop-coding.jpg");
@@ -11,20 +12,17 @@ body{
     
 }
 a{
-    float: left;
+    align-self: center;
     margin: 25px;
     padding: 3px;
 }
 p
 {
-  color: rgb(92, 97, 99,);
+   color: rgb(197, 189, 189);
    font-family: 'Bebas Neue', cursive;
 font-family: 'Roboto Slab', serif;
 font-size:20px;
 }
 h1{
-    color:black;
-}
-hr{
-    background-color:grey;
+    color:rgb(170, 154, 154);
 }
