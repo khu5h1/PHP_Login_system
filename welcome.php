@@ -4,7 +4,7 @@ if(time()-$_SESSION["login_time_stamp"] >1000)
     { 
         session_unset(); 
         session_destroy(); 
-        header("location:index.php");
+        header("location:home.php");
      }
 if (strlen($_SESSION['id']==0)) {
   header('location:logout.php');
