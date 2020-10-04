@@ -1,0 +1,15 @@
+body{
+    background-image: url('PHP_Login_system/images/welcome.jpg');
+  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+  
+}
+a{
+    float: right;
+    margin: 10px;
+    padding: 3px;
+}
