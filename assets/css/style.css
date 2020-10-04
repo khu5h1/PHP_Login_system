@@ -2,7 +2,6 @@ body{
     
     margin-top: 4rem;
     background-color: rgb(153, 226, 245);
-   
 }
 
 .container{
@@ -49,3 +48,18 @@ h3{
   .resetPass{
       margin-top: 4rem;
   }
+  @media screen and (max-width:767px)
+  {
+  .or {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+  }
+}
