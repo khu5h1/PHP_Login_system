@@ -1,5 +1,11 @@
 <?php
 session_start();
+if(time()-$_SESSION["login_time_stamp"] >1000)   
+    { 
+        session_unset(); 
+        session_destroy(); 
+        header("location:index.php");
+     }
 if (strlen($_SESSION['id']==0)) {
   header('location:logout.php');
 
