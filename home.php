@@ -121,7 +121,7 @@ echo "<script>alert('Email not registered');</script>";
                   type="submit"
                   name="login"
                   class="btnSubmit"
-                  value="LOG IN"
+                  value="Log In"
                 />
 
             </div>
