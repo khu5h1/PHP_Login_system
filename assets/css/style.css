@@ -2,6 +2,11 @@ body{
     
     margin-top: 4rem;
     background-color: rgb(153, 226, 245);
+    background-image: url("https://archive.org/download/macbook-laptop-coding/macbook-laptop-coding.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .container{
