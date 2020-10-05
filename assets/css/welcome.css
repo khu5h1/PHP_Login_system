@@ -24,5 +24,29 @@ font-family: 'Roboto Slab', serif;
 font-size:20px;
 }
 h1{
+    color:white;
+    position: relative;
+}
+h1::before{
+    content:"Hola Amegos!";
+    width:100%;
     color:rgb(170, 154, 154);
+    position:absolute;
+    top:0;
+    left:0;
+   
+    animation: slide 2s linear 1;
+   
+}
+@keyframes slide
+{
+    0%
+    {
+        width:60%;
+    }
+    50%
+    {
+        width:100%;
+    }
+    
 }
