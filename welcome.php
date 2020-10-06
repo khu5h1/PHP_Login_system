@@ -33,12 +33,15 @@ else{
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="assets/css/welcome.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="container">
-      <a href="logout.php" class="btn btn-primary">Logout</a>
-      <h1></h1>
-              
-    </div>
-  </body>
+<body>
+<div class="container">
+            <h1>Hola Amegos!</h1>
+            <p>This is a basic Login/SignUp/Logout functionality which you may use in your project.</p>
+            <a  href="logout.php" class="btn btn-primary btn-large">Logout </a> 
+
+        </div>
+         </div>
+
+</body>
 </html>
 <?php } ?>
