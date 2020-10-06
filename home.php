@@ -122,6 +122,7 @@ echo "<script>alert('Email not registered');</script>";
                   name="login"
                   class="btnSubmit"
                   value="LOG IN"
+                  
                 />
 
             </div>
@@ -173,7 +174,7 @@ echo "<script>alert('Email not registered');</script>";
         </div>
       </div>
     </div>
-    <div class="or">OR</div>
+    <div class="or">OR</div> 
 
   </body>
 </html>

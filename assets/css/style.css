@@ -2,7 +2,7 @@ body{
     
     margin-top: 4rem;
     background-color: rgb(153, 226, 245);
-    background-image: url("https://archive.org/download/macbook-laptop-coding/macbook-laptop-coding.jpg");
+    background-image: url("/phpsystem/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-attachment: fixed;
@@ -10,9 +10,10 @@ body{
 }
 
 .container{
-    background-color: rgba(0, 0, 0, 0.533);
+    background-color: rgba(48, 42, 42, 0.9);
     border-radius: 15px;
     padding:1.2rem 3rem;
+
 }
 
 h3{
@@ -44,16 +45,21 @@ h3{
 
   .btnSubmit{
       border-radius: 6px;
-      padding: 2px 5px;
+      padding: 4px 7px;
       text-align: center;
       color: rgba(0, 0, 0, 0.7);
       font-weight: 500;
+      font-size: 18px;
 
+  }
+  .btnSubmit:hover{
+      background-color: rgb(76, 128, 241);
+      color: white;
   }
   .resetPass{
       margin-top: 4rem;
   }
-  @media screen and (max-width:767px)
+@media screen and (max-width:767px)
   {
   .or {
     position: absolute;
