@@ -1,47 +1,55 @@
-<?php
-session_start();
-if(time()-$_SESSION["login_time_stamp"] >1000)   
-    { 
-        session_unset(); 
-        session_destroy(); 
-        header("location:home.php");
-     }
-if (strlen($_SESSION['id']==0)) {
-  header('location:logout.php');
 
-  } else{
-	
-?><!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@500&display=swap');
+body{
+    text-align: center;
+    margin-top: 70px;
+    height: 100vh;
+    width:100vw;
+    background-image: url("https://archive.org/download/macbook-laptop-coding/macbook-laptop-coding.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+a{
+    float: right;
+    margin: 0;
+    padding: 3px;
+    font-size: 20px;
+}
 
-<head>
+h1{
+    color: rgb(248, 238, 238);
+    position: relative;
+    font-family: 'Roboto', cursive;   
+    font-size:50px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+}
+h1::before{
+    content:"Welcome!";
+    width:100%;
+    color:rgb(248, 238, 238);
+    position:absolute;
+    top:0;
+    left:0;
+   
+    animation: slide 2s linear 1;
+   
+}
+@keyframes slide
+{
+    0%
+    {
+        width:60%;
+    }
+    50%
+    {
+        width:100%;
+    }
+    
+}
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Welcome </title>
-    <link
-      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-      rel="stylesheet"
-      id="bootstrap-css"
-    />
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="assets/css/welcome.css" rel="stylesheet">
-</head>
-<body>
-<div class="container">
-            <h1>Hola Amegos!</h1>
-            <p>This is a basic Login/SignUp/Logout functionality which you may use in your project.</p>
-            <a  href="logout.php" class="btn btn-primary btn-large">Logout </a> 
-       
-        </div>
-         </div>
-
-</body>
-
-</html>
-<?php } ?>
