@@ -36,7 +36,7 @@ else{
   <body>
     <div class="container">
       <a href="logout.php" class="btn btn-primary">Logout</a>
-      <h1>Welcome!</h1>
+      <h1></h1>
               
     </div>
   </body>
