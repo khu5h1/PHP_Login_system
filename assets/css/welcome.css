@@ -18,7 +18,13 @@ a{
     padding: 3px;
     font-size: 20px;
 }
-
+p
+{
+   color: rgb(197, 189, 189);
+   font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto Slab', serif;
+font-size:20px;
+}
 h1{
     color: rgb(248, 238, 238);
     position: relative;
@@ -29,7 +35,7 @@ h1{
     text-align: center;
 }
 h1::before{
-    content:"Welcome!";
+    content:"Hola Amigos!";
     width:100%;
     color:rgb(248, 238, 238);
     position:absolute;
