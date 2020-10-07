@@ -46,9 +46,11 @@ else{
         <a href="logout.php" class="btn btn-light float-right">Logout</a>
       </div>
     </nav>
-    <div class="container">      
-      <h1></h1>              
-    </div>
+    <div class="container">
+            <h1>Hola Amegos!</h1>
+            <p>This is a basic Login/SignUp/Logout functionality which you may use in your project.</p>
+            <a  href="logout.php" class="btn btn-primary btn-large">Logout </a> 
+      </div>
     <!-- Footer -->
     <footer class="page-footer center">
        © 2020. Developed using PHP            
