@@ -65,7 +65,7 @@ h1{
     text-align: center;
 }
 h1::before{
-    content:"Welcome!";
+    content:"Hola Amigos!";
     width:100%;
     color:rgb(248, 238, 238);
     position:absolute;
