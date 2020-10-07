@@ -21,7 +21,7 @@ else{
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="">  
 
     <title>Welcome</title>
     <link
@@ -33,15 +33,28 @@ else{
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="assets/css/welcome.css" rel="stylesheet">
   </head>
-<body>
-<div class="container">
+  <body>
+    <nav class="navbar-fixed">
+      <div class="nav-wrapper">              
+        <ul>
+          <li><img src="images/logo.png" alt="Home"></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <a href="logout.php" class="btn btn-light float-right">Logout</a>
+      </div>
+    </nav>
+    <div class="container">
             <h1>Hola Amegos!</h1>
             <p>This is a basic Login/SignUp/Logout functionality which you may use in your project.</p>
             <a  href="logout.php" class="btn btn-primary btn-large">Logout </a> 
-
-        </div>
-         </div>
-
-</body>
+      </div>
+    <!-- Footer -->
+    <footer class="page-footer center">
+       © 2020. Developed using PHP            
+    </footer>
+  </body>
 </html>
 <?php } ?>
