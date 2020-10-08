@@ -1,4 +1,5 @@
 <?php
+//Instal File
 require_once('dbconnection.php');
 if(isset($_POST['install'])){
   $user = $_POST['user'];
